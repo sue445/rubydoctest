@@ -52,7 +52,6 @@ Gem::Specification.new do |s|
     website/template.html.erb
   MANIFEST
   s.files = manifest.strip.split("\n").map{|m| m.strip}
-  s.has_rdoc = true
   s.homepage = %q{http://rubydoctest.rubyforge.org}
   s.post_install_message = %q{
 rubydoctest comes as an executable that takes a file or directory:
