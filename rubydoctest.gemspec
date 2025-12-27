@@ -7,7 +7,6 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Duane Johnson", "Tom Locke", "Dr Nic Williams"]
   s.date = "2014-12-31"
-  s.default_executable = "rubydoctest"
   s.description = "Ruby version of Python's doctest tool, but a bit different."
   s.email = ["duane.johnson@gmail.com"]
   s.executables = ["rubydoctest"]
@@ -53,7 +52,6 @@ Gem::Specification.new do |s|
     website/template.html.erb
   MANIFEST
   s.files = manifest.strip.split("\n").map{|m| m.strip}
-  s.has_rdoc = true
   s.homepage = %q{http://rubydoctest.rubyforge.org}
   s.post_install_message = %q{
 rubydoctest comes as an executable that takes a file or directory:
